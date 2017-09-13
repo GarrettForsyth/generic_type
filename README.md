@@ -1,12 +1,12 @@
 # Generic Type
 
-This is a simple app aimed to improve phone typing speeed.
+This is a simple app aimed to improve phone typing speed.
 
 ## Game One
 
 Game one shows random words from a dictionary and requires the user to type them in exactly. If a correct letter is entered, the letter turns green. If an incorrect letter is entered, the letter turns red. The user must type in as many words as they can before the timer runs out.
 
-The lengths of the words depend on the difficulty selected. Each correct word gives the player 10 points. Every 5 words, the timer is reset and its speed is increased.
+The length of the words depend on the difficulty selected. Each correct word gives the player 10 points. Every 5 words, the timer is reset and its speed is increased.
 
 ## Game Two
 

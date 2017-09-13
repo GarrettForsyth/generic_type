@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background = "@color/black"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/menuTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="10" />
+
+    <TextView
+        android:id="@+id/menuDifficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <RadioGroup android:id="@+id/difficultyRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radio_easy"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="20"
+        android:layout_marginBottom="15dp">
+
+        <RadioButton
+            android:id="@+id/radio_easy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/easy"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/radio_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/normal"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/radio_hard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/hard"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/game_one_button"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:layout_gravity="center"
+        android:text= "@string/game_one"
+        android:background="@drawable/custom_button" />
+
+
+    <Button
+        android:id="@+id/game_two_button"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:layout_gravity="center"
+        android:text= "@string/game_two"
+        android:background="@drawable/custom_button" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:layout_gravity="center"
+        android:text= "@string/exit"
+        android:background="@drawable/custom_button" />
+
+
+</LinearLayout>
+

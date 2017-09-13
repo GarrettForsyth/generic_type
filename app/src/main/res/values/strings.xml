@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Generic Type</string>
+    <string name="game_one">Game 1</string>
+    <string name="game_two">Game 2</string>
+    <string name="exit">Exit</string>
+    <string name="easy">Easy</string>
+    <string name="normal">Normal</string>
+    <string name="hard">Hard</string>
+    <string name="title_activity_game_two">GameTwoActivity</string>
+
+</resources>

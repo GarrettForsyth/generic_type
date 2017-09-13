@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:background = "@color/black"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:windowSoftInputMode="stateAlwaysVisible"
+    android:weightSum="1">
+
+    <com.games.garrett.generictype.ScrollingTextView
+        android:id="@+id/passage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:maxLines="7"
+        android:scrollbars="vertical"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"  />
+
+    <com.games.garrett.generictype.CustomEdit
+        android:id="@+id/userInputTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:cursorVisible="false"
+        android:clickable="false"
+        android:textSize="40sp"
+        android:textColor="@color/darkGreen"
+        android:background="@android:color/transparent"
+        android:gravity="top|center_horizontal"/>
+
+</LinearLayout>

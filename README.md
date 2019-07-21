@@ -8,6 +8,11 @@ Game one shows random words from a dictionary and requires the user to type them
 
 The length of the words depend on the difficulty selected. Each correct word gives the player 10 points. Every 5 words, the timer is reset and its speed is increased.
 
+<img src="./app/src/main/res/drawable/generic_type_game_1.png" width="30%" height="30%">
+
+
 ## Game Two
 
 Game two shows the user a random passage from the book "The Brothers Karamsov" by Fydor Dostoyevksy. The passage scrolls up, its speed based on the difficulty selected. The user is required to type as much of the passage correctly as they can before the passage scrolls completely out of view. Again, correct letters are coloured green, and incorrect letters are coloured red.
+
+<img src="./app/src/main/res/drawable/generic_type_game_2.png" width="30%" height="30%">
